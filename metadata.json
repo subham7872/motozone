@@ -1,0 +1,6 @@
+{
+  "name": "MOTOZONE Bike Showroom",
+  "description": "Full-stack modern bike showroom with e-commerce, AI chatbot, voice assistant, lead capture, and CRM dashboard",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
