@@ -3,12 +3,18 @@ import { IBike, ILead, IOrder } from '../types';
 
 const API_BASE = '/api';
 
+const BIKES_STORAGE_VERSION = 'motozone_bikes_v2';
+
 // Client-side LocalStorage Persistence Engine (Frontend Standalone Mode)
 const getLocalBikes = (): IBike[] => {
   if (typeof window === 'undefined') return INITIAL_BIKES;
+  const version = localStorage.getItem('motozone_bikes_version');
   const saved = localStorage.getItem('motozone_bikes');
-  if (!saved) {
+  
+  // If version changed or car image was previously cached, re-seed with clean superbike images
+  if (!saved || version !== BIKES_STORAGE_VERSION || (saved && saved.includes('photo-1511919884226-fd3cad34687c'))) {
     localStorage.setItem('motozone_bikes', JSON.stringify(INITIAL_BIKES));
+    localStorage.setItem('motozone_bikes_version', BIKES_STORAGE_VERSION);
     return INITIAL_BIKES;
   }
   try {

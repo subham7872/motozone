@@ -21,7 +21,7 @@ const slides = [
     badgeBg: 'bg-orange-500/20 text-orange-400 border-orange-500/40',
     accent: 'text-orange-400',
     bgGradient: 'from-zinc-950 via-zinc-950/80 to-orange-950/30',
-    image: 'https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1600&q=80',
+    image: 'https://images.unsplash.com/photo-1609630875171-b1321377ee65?auto=format&fit=crop&w=1600&q=80',
     specs: ['155cc VVA Engine', '18.4 PS Power', 'Quick Shifter', 'USD Forks']
   },
   {

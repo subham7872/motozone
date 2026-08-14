@@ -105,7 +105,7 @@ export const CrmPage: React.FC = () => {
             }`}
           >
             <Users className="w-4 h-4" />
-            <span>Test Drive Leads ({leads.length})</span>
+            <span>Test Ride Leads ({leads.length})</span>
           </button>
 
           <button

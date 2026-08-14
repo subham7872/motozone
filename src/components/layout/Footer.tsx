@@ -22,7 +22,7 @@ export const Footer: React.FC<FooterProps> = ({ setCurrentTab, openLeadModal }) 
             </div>
           </div>
           <p className="text-xs leading-relaxed text-zinc-400">
-            India's premier luxury motorcycle showroom. Featuring superbike sales, instant test drives, 0% EMI financing, and official authorized maintenance.
+            India's premier luxury motorcycle showroom. Featuring superbike sales, instant test rides, 0% EMI financing, and official authorized maintenance.
           </p>
           <div className="flex items-center gap-3 text-zinc-300 text-xs font-semibold pt-2">
             <div className="flex items-center gap-1.5 bg-zinc-900 border border-zinc-800 px-3 py-1.5 rounded-lg">
@@ -108,13 +108,13 @@ export const Footer: React.FC<FooterProps> = ({ setCurrentTab, openLeadModal }) 
           </div>
           <h4 className="text-white font-bold text-sm">Want a private home test ride?</h4>
           <p className="text-xs text-zinc-400">
-            Our luxury transport delivers any superbike right to your doorstep for a personal 30-minute test drive.
+            Our luxury transport delivers any superbike right to your doorstep for a personal 30-minute test ride.
           </p>
           <button
             onClick={openLeadModal}
             className="w-full bg-orange-500 hover:bg-orange-600 text-black font-bold text-xs py-2.5 rounded-xl transition-all shadow-md shadow-orange-500/20"
           >
-            Request Private VIP Drive
+            Request Private VIP Ride
           </button>
         </div>
       </div>

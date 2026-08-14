@@ -41,7 +41,7 @@ export const LeadsTable: React.FC<LeadsTableProps> = ({ leads, onUpdateStatus })
     <div className="bg-[#16161a] border border-white/5 rounded-3xl p-6 space-y-6">
       <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
         <div>
-          <h3 className="text-lg font-bold text-white">Superbike Inquiries & Test Drive Leads</h3>
+          <h3 className="text-lg font-bold text-white">Superbike Inquiries & Test Ride Leads</h3>
           <p className="text-xs text-slate-400">Manage real-time leads captured from web, phone, and AI Assistant.</p>
         </div>
 

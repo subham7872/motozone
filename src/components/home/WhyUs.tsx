@@ -11,7 +11,7 @@ export const WhyUs: React.FC = () => {
     {
       icon: <Zap className="w-6 h-6 text-amber-500" />,
       title: '60-Second VIP Response',
-      description: 'Our superbike concierge guarantees an instant callback or doorstep test drive arrangement within 60 seconds.'
+      description: 'Our superbike concierge guarantees an instant callback or doorstep test ride arrangement within 60 seconds.'
     },
     {
       icon: <ShieldCheck className="w-6 h-6 text-amber-500" />,

@@ -175,7 +175,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           <div className="pt-3 border-t border-zinc-800 flex flex-col gap-2">
             <button
               onClick={() => {
-                openWishlistOpen();
+                toggleWishlistOpen();
                 setMobileMenuOpen(false);
               }}
               className="w-full bg-zinc-900 text-rose-400 border border-zinc-800 py-3 rounded-xl text-sm font-bold flex items-center justify-center gap-2"

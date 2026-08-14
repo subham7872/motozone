@@ -334,7 +334,7 @@ export const BikeDetail: React.FC<BikeDetailProps> = ({
                   className="w-full bg-zinc-950 hover:bg-zinc-900 border border-zinc-800 text-orange-400 font-bold py-3 rounded-xl text-xs flex items-center justify-center gap-2 transition-all cursor-pointer"
                 >
                   <PhoneCall className="w-3.5 h-3.5" />
-                  <span>Book Home Test Drive or Request Callback</span>
+                  <span>Book Home Test Ride or Request Callback</span>
                 </button>
               </div>
             </div>

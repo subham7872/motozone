@@ -14,8 +14,8 @@ export const INITIAL_BIKES: IBike[] = [
     mileage: '45 kmpl',
     color: ['Racing Blue', 'Intensity White', 'Dark Knight'],
     images: [
-      'https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=1200&q=80'
+      'https://images.unsplash.com/photo-1609630875171-b1321377ee65?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1200&q=80'
     ],
     features: ['Quick Shifter (Up)', 'Traction Control System', 'Assist & Slipper Clutch', 'Y-Connect Bluetooth App', 'USD Front Forks'],
     specs: {
@@ -44,7 +44,7 @@ export const INITIAL_BIKES: IBike[] = [
     color: ['Supernova Red', 'Stellar Blue', 'Fireball Yellow'],
     images: [
       'https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1558981285-6f0c94958bb6?auto=format&fit=crop&w=1200&q=80'
+      'https://images.unsplash.com/photo-1558980664-3a031cf67ea8?auto=format&fit=crop&w=1200&q=80'
     ],
     features: ['Tripper Navigation Pod', 'Classic Cruiser Ergonomics', 'Dual Channel ABS', 'USB Charging Port', 'Retro Windscreen'],
     specs: {
@@ -74,7 +74,7 @@ export const INITIAL_BIKES: IBike[] = [
     color: ['Electronic Orange', 'Atlantic Blue'],
     images: [
       'https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1200&q=80'
+      'https://images.unsplash.com/photo-1558980664-769d59546b3d?auto=format&fit=crop&w=1200&q=80'
     ],
     features: ['5-inch TFT Display', 'Cornering ABS & Supermoto Mode', 'Launch Control', 'Ride-by-Wire with 3 Modes', 'WP APEX Adjustable Suspension'],
     specs: {
@@ -102,8 +102,8 @@ export const INITIAL_BIKES: IBike[] = [
     mileage: '150 km per charge',
     color: ['Indium Blue', 'Space Grey', 'Salt Green'],
     images: [
-      'https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=1200&q=80'
+      'https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1558980394-4c7c9299fe96?auto=format&fit=crop&w=1200&q=80'
     ],
     features: ['Warp+ Mode (0-40km/h in 2.9s)', 'Magic Twist Regenerative Braking', '7-inch Touchscreen Navigation', 'AutoHold Hill Assist', 'OTA Smart Updates'],
     specs: {
@@ -131,7 +131,7 @@ export const INITIAL_BIKES: IBike[] = [
     mileage: '20 kmpl',
     color: ['Grand Prix Red', 'Mat Gunpowder Black'],
     images: [
-      'https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1558981285-6f0c94958bb6?auto=format&fit=crop&w=1200&q=80',
       'https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1200&q=80'
     ],
     features: ['Honda E-Clutch Technology', 'HSTC Traction Control', '5-inch Full Color TFT', 'Showa 41mm SFF-BP USD Forks', 'Slipper Clutch & Radial Calipers'],
@@ -160,7 +160,8 @@ export const INITIAL_BIKES: IBike[] = [
     mileage: '15 kmpl',
     color: ['Light White M Motorsport', 'Black Storm Metallic'],
     images: [
-      'https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1200&q=80'
+      'https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1609630875171-b1321377ee65?auto=format&fit=crop&w=1200&q=80'
     ],
     features: ['BMW ShiftCam Technology', 'Dynamic Damping Control DDC', 'Carbon Fiber M Wheels', 'Pro Riding Modes & Slide Control', 'Launch Control & Pit Lane Limiter'],
     specs: {
@@ -189,7 +190,8 @@ export const INITIAL_BIKES: IBike[] = [
     mileage: '18 kmpl',
     color: ['Candy Lime Green', 'Metallic Spark Black'],
     images: [
-      'https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=1200&q=80'
+      'https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1558981359-219d6364c9c8?auto=format&fit=crop&w=1200&q=80'
     ],
     features: ['Sugomi Design Philosophy', 'Integrated Riding Modes', 'Power Mode Selection', 'TFT Color Instrumentation with Rideology', 'KTRC Traction Control'],
     specs: {
@@ -217,7 +219,8 @@ export const INITIAL_BIKES: IBike[] = [
     mileage: '12 kmpl',
     color: ['Ducati Red'],
     images: [
-      'https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=1200&q=80'
+      'https://images.unsplash.com/photo-1591637333184-19aa84b3e01f?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1558981285-6f0c94958bb6?auto=format&fit=crop&w=1200&q=80'
     ],
     features: ['Öhlins NPX/TTX Electronic Suspension', 'Marchesini Forged Aluminum Wheels', 'Ducati Traction Control EVO 3', 'Biplane Aero Wings (37kg downforce)', 'Full Titanium Akrapovič Exhaust Ready'],
     specs: {
